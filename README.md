@@ -28,7 +28,12 @@ The game ends when:
 ### 📊 Live Scoreboard
 - Score updates instantly  
 - Resets when game restarts  
-- High contrast for visibility  
+- High contrast for visibility 
+
+### 💾 High Score Persistence
+- The game tracks and saves the highest score achieved
+- High score data is stored locally in a `data.txt` file
+- The high score persists between game sessions
 
 ---
 
@@ -39,7 +44,8 @@ The project is organized into separate classes to keep the code clean and modula
 - **`Snake`** → creates the snake, controls movement, and adds segments  
 - **`Food`** → handles random food placement  
 - **`Scoreboard`** → displays and updates score  
-- **`main.py`** → runs game logic and ties everything together  
+- **`main.py`** → runs game logic and ties everything together
+- **`data.txt`** → stores and persists the high score 
 
 This structure made debugging and improvements easier, and helped me understand real-world OOP patterns.
 
