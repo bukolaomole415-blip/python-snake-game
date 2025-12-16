@@ -2,6 +2,7 @@
 Classic Snake game built using Python’s turtle module.
 
 # 🐍 Python Snake Game
+<img src="media/preview.gif" width="600">
 
 A modern, object-oriented version of the classic **Snake** game, built in Python using the `turtle` graphics module.  
 This project is part of my **100 Days of Code** journey, where I’m creating real projects to build my skills and track my progress.
